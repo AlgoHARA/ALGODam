@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E7CC0D2029CC0E5B001EAC65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC0D1F29CC0E5B001EAC65 /* main.swift */; };
-		E7CC0D2A29CC0FDE001EAC65 /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC0D2929CC0FDE001EAC65 /* test1.swift */; };
-		E7CC0D2D29CC0FEF001EAC65 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC0D2C29CC0FEF001EAC65 /* test2.swift */; };
-		E7CC0D2F29CC0FFA001EAC65 /* test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC0D2E29CC0FFA001EAC65 /* test3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +28,7 @@
 		E7CC0D2929CC0FDE001EAC65 /* test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
 		E7CC0D2C29CC0FEF001EAC65 /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
 		E7CC0D2E29CC0FFA001EAC65 /* test3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3.swift; sourceTree = "<group>"; };
+		E7CC0D3029CC142A001EAC65 /* SwiftBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +61,8 @@
 		E7CC0D1E29CC0E5B001EAC65 /* ALGODam */ = {
 			isa = PBXGroup;
 			children = (
+				E7CC0D1F29CC0E5B001EAC65 /* main.swift */,
+				E7CC0D3029CC142A001EAC65 /* SwiftBasic.swift */,
 				E7CC0D2829CC0FCD001EAC65 /* LeetCode */,
 				E7CC0D2729CC0FB6001EAC65 /* Baekjoon */,
 				E7CC0D2629CC0F99001EAC65 /* Programmers */,
@@ -81,7 +81,6 @@
 		E7CC0D2729CC0FB6001EAC65 /* Baekjoon */ = {
 			isa = PBXGroup;
 			children = (
-				E7CC0D1F29CC0E5B001EAC65 /* main.swift */,
 				E7CC0D2C29CC0FEF001EAC65 /* test2.swift */,
 			);
 			path = Baekjoon;
@@ -154,9 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CC0D2029CC0E5B001EAC65 /* main.swift in Sources */,
-				E7CC0D2F29CC0FFA001EAC65 /* test3.swift in Sources */,
-				E7CC0D2D29CC0FEF001EAC65 /* test2.swift in Sources */,
-				E7CC0D2A29CC0FDE001EAC65 /* test1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
