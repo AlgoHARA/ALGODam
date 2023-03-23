@@ -82,6 +82,13 @@ let sustring = string[start...end]
 // 특정 character replace
 string.replacingOccurrences(of: " ", with: "+" )
 
+// 인덱스 번호로 문자열 char 가져오기
+extension String {
+    func getChar(at index: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: index)]
+    }
+}
+
 //print 할 때 따옴표('), 쌍따옴표(") 출력하기
 print("이렇게 \'써준다")
 
