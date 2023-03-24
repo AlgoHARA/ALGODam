@@ -27,7 +27,7 @@
 		E7CC0D1C29CC0E5B001EAC65 /* ALGODam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ALGODam; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CC0D1F29CC0E5B001EAC65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E7CC0D2929CC0FDE001EAC65 /* test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
-		E7CC0D2C29CC0FEF001EAC65 /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
+		E7CC0D2C29CC0FEF001EAC65 /* BJ1100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ1100.swift; sourceTree = "<group>"; };
 		E7CC0D2E29CC0FFA001EAC65 /* test3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3.swift; sourceTree = "<group>"; };
 		E7CC0D3029CC142A001EAC65 /* SwiftBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +84,7 @@
 			children = (
 				E7CC0D2C29CC0FEF001EAC65 /* test2.swift */,
 				E72FF04629CC9468003002B4 /* bj1058.swift */,
+				E7CC0D2C29CC0FEF001EAC65 /* BJ1100.swift */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
