@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E72FF04629CC9468003002B4 /* bj1058.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1058.swift; sourceTree = "<group>"; };
 		E7637A1429D719A2000C1E40 /* bj2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj2630.swift; sourceTree = "<group>"; };
+		E77307CB29FA811D00F96CC5 /* bj7576.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj7576.swift; sourceTree = "<group>"; };
 		E78D446929EA80810003776B /* bj1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1541.swift; sourceTree = "<group>"; };
 		E78D446B29EA90B80003776B /* bj10026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj10026.swift; sourceTree = "<group>"; };
 		E7CC0D1C29CC0E5B001EAC65 /* ALGODam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ALGODam; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +91,7 @@
 				E7637A1429D719A2000C1E40 /* bj2630.swift */,
 				E78D446929EA80810003776B /* bj1541.swift */,
 				E78D446B29EA90B80003776B /* bj10026.swift */,
+				E77307CB29FA811D00F96CC5 /* bj7576.swift */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
