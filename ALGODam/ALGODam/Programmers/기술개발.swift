@@ -1,38 +1,43 @@
+// 내 풀이
 
 import Foundation
 
 func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
-    return zip(progresses, speeds)
-        .map { (100 - $0) / $1 }
-        // tuple 에는 이전 값(배열, 일자)의 튜플 형태 , day는 다음 원소 값
-        .reduce(([], 0)) { (tuple, day) -> ([Int], Int) in
-            var (list, lastMax) = tuple
+    var result : [Int] = []
+    // ### 고차함수를 써서 날짜를 계산했는데 시간초과로 실패함
+   // var leftDaysArray = progresses.map{Float($0)}.enumerated().map { (pIndex, progress) in
+   //      return speeds.map{Float($0)}.enumerated().filter({ (sIndex, element) in
+   //          pIndex == sIndex
+   //      }).map{ (index, speed) in ceil((100 - progress) / speed) }
+   // }.flatMap{$0}
 
-            if lastMax >= day {
-                list[list.count - 1] += 1
-                return (list, lastMax)
-            }
-            
-            // 새로운 요소 1로 추가, lastMax도 day로 변경
-            return (list + [1], day)
-            
-            /* 야곰님 코드
-             list가 빈 배열이면 guard else 로 리턴
-             guard let lastCount = list.last else {
-                 return ([1], day)
-             }
-             
-             / day 가 lastMax보다 같거나 작으면 요소의 크기를 증가 시킴 ( 맨 끝요소 자르고 끝 값 + 1을 해서 넣어줌)
-             if lastMax >= day {
-                return (list.dropLast() + [lastCount + 1], lastMax)
-             }
-             
-             return (list + [1], day)
-             */
-        }.0
+    var leftDaysArray: [Int] = []
+    for i in 0..<speeds.count {
+        var day = 0
+        if (100 - progresses[i]) % speeds[i] == 0 {
+            day = (100 - progresses[i]) / speeds[i]
+        } else {
+            day = (100 - progresses[i]) / speeds[i] + 1
+        }
+
+        leftDaysArray.append(day)
+    }
+
+    print(leftDaysArray)
+
+     var distributed = 0
+     var priorDay = leftDaysArray[0]
+     for postDay in leftDaysArray {
+         if priorDay >= postDay {
+             distributed += 1
+         } else {
+             result.append(distributed)
+             distributed = 1
+             priorDay = postDay
+         }
+     }
+    result.append(distributed)
+     print(result)
+
+    return result
 }
-
-let progresses = [95, 90, 99, 99, 80, 99]
-let speeds = [1, 1, 1, 1, 1, 1]
-print( solution(progresses, speeds) )
-
