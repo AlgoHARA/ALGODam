@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E715595A2A28D255008B850A /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		E72FF04629CC9468003002B4 /* bj1058.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1058.swift; sourceTree = "<group>"; };
 		E7637A1429D719A2000C1E40 /* bj2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj2630.swift; sourceTree = "<group>"; };
 		E76938152A079C6800682321 /* 보석 쇼핑.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "보석 쇼핑.swift"; sourceTree = "<group>"; };
@@ -60,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E71559592A28D23D008B850A /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC0D3029CC142A001EAC65 /* SwiftBasic.swift */,
+				E715595A2A28D255008B850A /* Heap.swift */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
 		E7CC0D1329CC0E5B001EAC65 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +89,8 @@
 		E7CC0D1E29CC0E5B001EAC65 /* ALGODam */ = {
 			isa = PBXGroup;
 			children = (
+				E71559592A28D23D008B850A /* DataStructure */,
 				E7CC0D1F29CC0E5B001EAC65 /* main.swift */,
-				E7CC0D3029CC142A001EAC65 /* SwiftBasic.swift */,
 				E7CC0D2829CC0FCD001EAC65 /* LeetCode */,
 				E7CC0D2729CC0FB6001EAC65 /* Baekjoon */,
 				E7CC0D2629CC0F99001EAC65 /* Programmers */,
