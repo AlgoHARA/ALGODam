@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		E715595A2A28D255008B850A /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		E715595C2A28E274008B850A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		E72FF04629CC9468003002B4 /* bj1058.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1058.swift; sourceTree = "<group>"; };
 		E7637A1429D719A2000C1E40 /* bj2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj2630.swift; sourceTree = "<group>"; };
 		E76938152A079C6800682321 /* 보석 쇼핑.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "보석 쇼핑.swift"; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 			children = (
 				E7CC0D3029CC142A001EAC65 /* SwiftBasic.swift */,
 				E715595A2A28D255008B850A /* Heap.swift */,
+				E715595C2A28E274008B850A /* Queue.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
